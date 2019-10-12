@@ -16,7 +16,7 @@ public class microController {
 
 	
 	@Autowired(required = true)
-	@Qualifier("ItemServiceFeign")
+	@Qualifier("itemServiceFeign")
 	private ItemService itemservice;
 	
 	@GetMapping("/list")
